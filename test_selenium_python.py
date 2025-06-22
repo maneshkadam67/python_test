@@ -33,7 +33,7 @@ def test_search_valid_product():
     driver.find_element(By.XPATH,"//*[@id=\"search\"]/span/button").click()
     print("clicked search")
     time.sleep(4)
-    print("Run successfully in docker ..................")
+    print("Run successfully in docker ...................this")
     driver.quit()
 
 
