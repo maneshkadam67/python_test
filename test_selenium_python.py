@@ -18,10 +18,8 @@ def test_search_valid_product():
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
 
-    # temp_profile = tempfile.mkdtemp()
-    # options.add_argument(f'--user-data-dir={temp_profile}')
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     # driver=webdriver.Chrome()
     driver.maximize_window()
